@@ -8,7 +8,3 @@ while bob.lives > 0 && joe.lives > 0
   puts new_game.question(rand(1..20), rand(1..20))
   new_game.new_turn
 end
-# if bob.lives == 0 || joe.lives == 0
-#   puts new_game.result
-# end
-# new_game.players
